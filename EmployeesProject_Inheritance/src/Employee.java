@@ -1,5 +1,5 @@
 
-public class Employee {                                  //Super class'ýmýz.
+public class Employee {                                             //Super class
 
 	private String name;
 	private String last_name;
@@ -10,7 +10,8 @@ public class Employee {                                  //Super class'ýmýz.
 public Employee (String name, String last_name,int id) {
 	
 	this.name = name;
-	this.last_name = last_name;                                 //Çalýþan bilgileri için temel constructorumuzu oluþturduk.
+	this.last_name = last_name;                                 //We created constructor
+
 	this.id = id;
 }
 
@@ -19,7 +20,7 @@ public void show_information() {
 	
 	System.out.println("Employee Information");
 	System.out.println("Employee Name : "+ name);
-	System.out.println("Employee Last Name : "+ last_name);             //Bilgileri göstermek için kullandýðýmýz metod.
+	System.out.println("Employee Last Name : "+ last_name);             
 	System.out.println("Employee Id : "+ id);
 }
 
