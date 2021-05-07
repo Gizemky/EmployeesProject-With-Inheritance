@@ -1,7 +1,7 @@
 
 public class Programmer extends Employee {
 
-private String skills;                       // Yazýlýmcý için yeteneklerini gösteren bir deðiþken tanýmladýk.
+private String skills;                       
 
 public Programmer(String name, String last_name, int id, String skills) {
 
@@ -21,7 +21,7 @@ public void setskills(String skills) {
 public void format(String OS) {                    //OS= Operating System
 	      
 	
-	System.out.println(getname() + " is " + " loading " +OS );       //yazýlýmya format yükleme   metodu tanýmladýk.                                
+	System.out.println(getname() + " is " + " loading " +OS );                                      
 }
 
 
