@@ -10,7 +10,7 @@ public class Main {
 	System.out.println("Welcome to the employee program...");
 		
 		String transactions = "1 : Software Developer Transactions \n"
-				             +"2 : Manager Transactions\n"
+				     +"2 : Manager Transactions\n"
 		                     +"q : Exit\n";
 	
 	System.out.println("************************************");
@@ -43,8 +43,8 @@ while (true) {
 			Programmer programmer = new Programmer("Gizem","KAYA",1,"JAVA - C++ ");
 			
 			String Programmer_Transactions = "1 : Programmer Informations\n" 
-					                        +"2 : Format\n"
-					                        +"q : Exit \n";
+					                +"2 : Format\n"
+					                +"q : Exit \n";
 			System.out.println("************************************");
 			
 			System.out.println(Programmer_Transactions);
@@ -79,7 +79,7 @@ while (true) {
 				
 				else {
 					
-					System.out.println("Ýnvalid transaction!!");
+					System.out.println("Invalid transaction!!");
 					
 				}
 				
@@ -131,7 +131,7 @@ while (true) {
 
              else {
 
-             System.out.println("Ýnvalid transaction!!");
+             System.out.println("Invalid transaction!!");
 
              }
 
@@ -140,7 +140,7 @@ while (true) {
 		
 	else {
 			
-	System.out.println("Ýnvalid transaction!!");
+	System.out.println("Invalid transaction!!");
 			
 	}
 		
@@ -150,6 +150,3 @@ while (true) {
 
 
 
-//temelde 3 sçenekli iþlemler menümüz var buradan kullanýcý bir iþlem numarasý giriyor.WHile döngüsü kullanýyoruz.
-// girdiði iþlem numrasýna göre kullanýcýya baþka iþlem seçenekleri gösteriyoruz.Bir while döngüsü daha ekliyoruz.
-//kullanýcý ilk baþta girdiði menüye dönüp q ya basana kadar farklý farklý seçeneklere seçeneklere altýndaki alt baþlýklara girebiliyor.
